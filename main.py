@@ -20,7 +20,7 @@ def commit_changes(message):
     os.system(f'git add . && git commit -m "{message}"')
 
 def main():
-    # Crée l'arborescence de dossiers
+    # Créer l'arborescence de dossiers
     create_directory_structure()
     commit_changes("Créer l'arborescence de dossiers")
 
